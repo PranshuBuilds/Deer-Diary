@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "406372395517",
+    "firebase_url": "https://deerdairy-d43a1.firebaseio.com",
+    "project_id": "deerdairy-d43a1",
+    "storage_bucket": "deerdairy-d43a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406372395517:android:fc207721f64b16445f5194",
+        "android_client_info": {
+          "package_name": "com.example.s6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406372395517-ca485vq9gfvgj7nlca67lgphoo0on0gg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.s6",
+            "certificate_hash": "08bf2f15425ddbce6f10d18424a2b9911d7da476"
+          }
+        },
+        {
+          "client_id": "406372395517-njgqpteln3q1tsstlmka8djtke2q6rgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT2dmq3tD0NmCHNoos-ytLqZAtDUVfct8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406372395517-njgqpteln3q1tsstlmka8djtke2q6rgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
