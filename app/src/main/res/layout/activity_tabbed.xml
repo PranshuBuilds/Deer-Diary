@@ -47,7 +47,7 @@
         app:itemTextColor="#1A1A1A"
         app:itemIconTint="@color/colorPrimaryDark"
         app:headerLayout="@layout/header"
-        android:layout_gravity="start"
+        android:layout_gravity="end"
         app:menu="@menu/drawer"/>
 
 

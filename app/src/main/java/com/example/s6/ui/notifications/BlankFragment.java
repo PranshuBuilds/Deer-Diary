@@ -31,6 +31,7 @@ public class BlankFragment extends Fragment {
 
     SignaturePad signaturePad;
     Button saveButton, clearButton;
+    Drawable drawable;
     public BlankFragment() {
         // Required empty public constructor
     }
@@ -61,7 +62,7 @@ public class BlankFragment extends Fragment {
                 saveButton.setEnabled(true);
                 clearButton.setEnabled(true);
                 Bitmap bitmapTrimmed = signaturePad.getTransparentSignatureBitmap();
-                Drawable d = new BitmapDrawable(getResources(), bitmapTrimmed);
+                drawable = new BitmapDrawable(getResources(), bitmapTrimmed);
             }
 
             @Override

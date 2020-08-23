@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
 import android.widget.EditText;
@@ -70,6 +71,7 @@ public class UploadActivity extends AppCompatActivity {
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
 
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         mStorageRef = FirebaseStorage.getInstance().getReference("uploads");
         mDatabaseRef = FirebaseDatabase.getInstance().getReference("uploads");
 
@@ -95,10 +97,13 @@ public class UploadActivity extends AppCompatActivity {
     }
 
         Intent intent = new Intent();
-        private void openFileChooser() {
-        intent.setType("image/*");
-        intent.setAction(Intent.ACTION_GET_CONTENT);
-        startActivityForResult(intent, PICK_IMAGE_REQUEST);
+
+    private void openFileChooser()
+    {
+            intent.setType("image/*");
+            intent.setAction(Intent.ACTION_GET_CONTENT);
+            startActivityForResult(intent, PICK_IMAGE_REQUEST);
+
     }
 
     @Override

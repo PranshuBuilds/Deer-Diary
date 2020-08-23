@@ -188,7 +188,7 @@ public class HomeFragment extends Fragment  {
                 .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {}
-                }).setIcon(R.drawable.logo_black)
+                }).setIcon(R.drawable.common_google_signin_btn_icon_dark)
                 .create()
                 .show();
 
@@ -292,8 +292,7 @@ class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListen
         rootView.setOnClickListener(this);
         rootView.setOnLongClickListener(this);
     }
-
-
+    
     @Override
     public void onClick(View v) {
         if(mListener != null){

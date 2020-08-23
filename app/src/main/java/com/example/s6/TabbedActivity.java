@@ -33,6 +33,7 @@ public class TabbedActivity extends AppCompatActivity implements NavigationView.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tabbed);
 
+//        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 //        getWindow().setFlags(Window.setStatusBarColor(R.color.mdtp_transparent_black),WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
 //        Window.setStatusBarColor(R.color.mdtp_transparent_black);
         BottomNavigationView navView = findViewById(R.id.nav_view);
@@ -45,7 +46,6 @@ public class TabbedActivity extends AppCompatActivity implements NavigationView.
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         //NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
-
     }
 
     @Override

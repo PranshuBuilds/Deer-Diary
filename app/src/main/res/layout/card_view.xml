@@ -45,7 +45,7 @@
                     android:gravity="top"
                     android:layout_weight="1"
 
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/toolbar_title"
                     android:textSize="24sp" />
 
                 <ImageView
@@ -71,7 +71,7 @@
                 android:layout_width="16dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="0dp"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/toolbar_title"
 
                 android:layout_marginTop="14dp"
                 android:gravity="top"
